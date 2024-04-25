@@ -1,0 +1,83 @@
+post 
+<div className="ml-6">
+            <h3 className="text-blue-600  font-bold mb-2">
+              #todayshooting #newmodel
+            </h3>
+            <img src={post1} alt="john" className=" object-cover rounded-md" />
+          </div>
+          <div>
+</div>
+
+
+
+button 
+<div className="flex items-center justify-around mt-3 mx-auto shadow-xl ml-3 mr-6 bg-[#f0f0f0] rounded-2xl p-2 border-r-4 border-l-4">
+              <button className="flex justify-center items-center">
+                <img src={like} alt="" className="h-6" /> <span>Like</span>
+              </button>
+              <button className="flex justify-center items-center">
+                <img src={comment} alt="" className="h-6" />
+                Comment
+              </button>
+              <button className="flex justify-center items-center">
+                <img src={share} alt="" className="h-6" /> Share
+              </button>
+            </div>
+
+
+post card 
+<div className="flex items-center justify-center flex-col">
+                  <h3 className="text-blue-600  font-bold mb-2">
+                    #todayshooting #newmodel
+                  </h3>
+                  <img
+                    src={post1}
+                    alt="model_Female_photo"
+                    className="object-cover rounded-md w-80"
+                  />
+                  <div className="pt-[1px] w-full my-3 mx-auto  bg-slate-300"></div>
+                </div>
+                {/* like count section */}
+                <div className="space-x-1 flex  justify-evenly items-center">
+                  <div className="flex items-center flex-row justify- w-full mr-20">
+                    <img src={like_icon} alt="" className="object-cover h-4" />
+                    <img src={love_icon} alt="" className="object-cover h-4" />
+                    {randomnumber}K
+                  </div>
+                  <div className="flex items-center">
+                    805
+                    <img
+                      src={comment_fill}
+                      alt="comment_icon"
+                      className="object-cover h-5 mr-3"
+                    />
+                    400
+                    <img
+                      src={share_fill}
+                      alt="comment_icon"
+                      className="object-cover h-5"
+                    />
+                  </div>
+                </div>
+                <div className="pt-[1px] w-full mt-3 mx-auto  bg-slate-300"></div>
+
+                {/* Like,comment,Share section */}
+                <div className="space-x-5 pt-5 flex items-center -mt-4 ">
+                  <button className=" flex ">
+                    <img
+                      src={like}
+                      alt=""
+                      className="h-6"
+                      onClick={handleReaction}
+                    />
+                    <span>Like</span>
+                  </button>
+                  <button className="flex">
+                    <img src={comment} alt="" className="h-6" />
+                    Comment
+                  </button>
+                  <button className="flex">
+                    <img src={share} alt="" className="h-6" /> Share
+                  </button>
+                </div>
+                <div className="pt-[1px] w-full mt-3 mx-auto  bg-slate-300"></div>
